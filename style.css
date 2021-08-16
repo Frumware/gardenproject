@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+.goal {
+    display: flex;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.goal:hover {
+    color: lightgreen;
+    
+}
+
+h3 {
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    padding: 15px;
+    flex-direction: column;
+    align-items:center;
+}
+
+#one:hover {
+    color: lightgreen;
+    font-size: 30px;
+}
+
+#two:hover {
+    color: lightgreen;
+    font-size: 30px;
+}
+
+#three:hover {
+    color: lightgreen;
+    font-size: 30px;
+}
