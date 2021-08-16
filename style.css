@@ -7,11 +7,30 @@ body {
     color: white;
     text-align: center;
     font-style: italic;
+    transition-property: all;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
 }
+
 
 .goal:hover {
     color: lightgreen;
     
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+#arrow {
+    transition-property: all;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+}
+
+#arrow:hover {
+    color: lightseagreen;
 }
 
 h3 {
@@ -22,19 +41,48 @@ h3 {
     padding: 15px;
     flex-direction: column;
     align-items:center;
+    margin-left: 8%;
+    margin-right: 8%;
+    transition-property: all;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+}
+#one {
+    border: 1px solid white;
+    border-radius: 20px;
+   
 }
 
+#two {
+    border: 1px solid white;
+    border-radius: 20px; 
+   
+}
+
+#three {
+    border: 1px solid white;
+    border-radius: 20px;
+    
+}
 #one:hover {
     color: lightgreen;
-    font-size: 30px;
+    font-size: 25px;
+    border: 3px solid lightgreen;
+    border-radius: 20px;
+   
 }
 
 #two:hover {
     color: lightgreen;
-    font-size: 30px;
+    font-size: 25px;
+    border: 3px solid lightgreen;
+    border-radius: 20px;
 }
 
 #three:hover {
     color: lightgreen;
-    font-size: 30px;
+    font-size: 25px;
+    border: 2px solid lightgreen;
+    border-radius: 20px;
+    
 }
