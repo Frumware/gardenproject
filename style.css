@@ -14,8 +14,7 @@ body {
 
 
 .goal:hover {
-    color: lightgreen;
-    
+    color: gold;
 }
 
 h2 {
@@ -30,19 +29,20 @@ h2 {
 }
 
 #arrow:hover {
-    color: lightseagreen;
+    color: lightgreen;
+    font-size: 20px;
 }
 
 h3 {
     display: flex;
-    color: white;
+    color: black;
     text-align: center;
     font-size: larger;
     padding: 15px;
     flex-direction: column;
     align-items:center;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 7%;
+    margin-right: 7%;
     transition-property: all;
     transition-duration: .4s;
     transition-timing-function: ease-in-out;
