@@ -6,6 +6,8 @@ nav{
     height: 10vh;
     background: lightgreen;
     border-bottom: 4px solid white;
+    margin: -10px;
+    margin-top: -20px;
     
 }
 
