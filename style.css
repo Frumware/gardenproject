@@ -104,6 +104,7 @@ nav{
 
 body {
     background-color: black;
+    color: white;
 }
 
 .goal {
@@ -193,6 +194,14 @@ h3 {
     border: 2px solid lightgreen;
     border-radius: 20px;
     
+}
+
+.logo h1 {
+    color: lightgreen;
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 2%;
+    font-weight: bold;
 }
 
 
