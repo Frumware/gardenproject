@@ -4,7 +4,7 @@
 
 nav{
     height: 10vh;
-    background:brown;
+    background:red;
     border-bottom: 4px solid lightgreen;
     margin: -10px;
     margin-top: -20px;
@@ -62,7 +62,7 @@ nav{
     }
     .nav-Links {
         position: fixed;
-        background: brown;
+        background: red;
         height: 100vh;
         width: 100%;
         flex-direction: column;
@@ -70,12 +70,14 @@ nav{
         -webkit-clip-path: circle(1px at 90% -10%);
         transition: all 1s ease-out; 
         pointer-events: all;
+        margin-top: -15px;
         
     
     }
     .nav-Links.open{
         clip-path: circle(2800px at 90% -10%);
         -webkit-clip-path: circle(2800px at 90% -10%);
+        margin-top: -15px;
     
     }
     .Landing {
@@ -127,7 +129,7 @@ body {
 }
 
 h2 {
-    color: white;
+    color: red;
     text-align: center;
 }
 
@@ -144,7 +146,7 @@ h2 {
 
 h3 {
     display: flex;
-    color: grey;
+    color: red;
     text-align: center;
     font-size: larger;
     padding: 15px;
@@ -157,19 +159,19 @@ h3 {
     transition-timing-function: ease-in-out;
 }
 #one {
-    border: 1px solid white;
+    border: 1px solid red;
     border-radius: 20px;
    
 }
 
 #two {
-    border: 1px solid white;
+    border: 1px solid red;
     border-radius: 20px; 
    
 }
 
 #three {
-    border: 1px solid white;
+    border: 1px solid red;
     border-radius: 20px;
     
 }
@@ -205,10 +207,20 @@ h3 {
 }
 
 .fruitname {
-    font-size: 100px;
+    font-size: 15px;
 }
 
 .fruitstats {
     font-size: 15px;
+}
+
+h1 {
+    color: lightgreen;
+    text-align: left;
+    font-weight: bolder;
+}
+
+#bruh {
+    background-color: lightgreen;
 }
 
